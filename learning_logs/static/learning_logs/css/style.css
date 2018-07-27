@@ -1,0 +1,23 @@
+
+a.topic{
+    font-family: consolas;
+    font-size: 1.4rem;
+    color: Crimson ;
+}
+
+.capital{
+    text-transform: uppercase;
+}
+
+.nav-link{
+    font-size: 1.5rem;
+    
+}
+
+.nav-link:hover{
+    color: maroon;
+}
+
+a:hover{
+    text-decoration: none;
+}
