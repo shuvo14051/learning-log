@@ -7,12 +7,15 @@
 
     {% load static %}
     <!--css from bootswatch  -->
-    <!-- <link rel="stylesheet" href={% static 'learning_logs/css/cyborg.css' %}> -->
+     <link rel="stylesheet" href={% static 'learning_logs/css/cyborg.css' %}> 
 
     <!--CDN ba BOOTSWATCH je kono ekta use korte hobe-->
 
     <!--CDN css-->
+
+    <!-- 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+    s-->
     
     <!-- jQuery library -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
@@ -24,7 +27,7 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
 
     <!--My style-->
-    <link rel="stylesheet" href={% static 'learning_logs/css/style.css' %}> 
+    <link rel="stylesheet" href="{% static 'learning_logs/css/style.css' %}" > 
 
     <!--favicon-->
     <link rel="shortcut icon" href="{%  static 'learning_logs/img/L1.png' %}">
@@ -36,7 +39,7 @@
 <body>
      <br> 
     
-     <nav class="navbar navbar-dark bg-dark fixed-top navbar-expand-md">
+     <nav class="navbar navbar-dark bg-dark fixed-top navbar-expand-md ">
         <div class="container">
             <a href="{% url 'learning_logs:index' %}">
                 <img src="{% static 'learning_logs/img/ll.ico' %}" width="40" height="40" class="mr-2">

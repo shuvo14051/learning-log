@@ -16,6 +16,9 @@
 
             {% buttons %}
             <button type="submit" class="btn btn-primary">Log in</button>
+             <br>
+             <br>
+            <a href="{% url 'users:signup' %}" class="lead">If you are not registered! Sign up first.</a>
             {% endbuttons %}            
             <input type="hidden" name="next" value="{% url 'learning_logs:index' %}">
         </form>
